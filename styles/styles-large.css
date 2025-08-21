@@ -1,0 +1,125 @@
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 50px;
+    padding: 5px;
+    margin: 10px;
+  }
+  #hamButton {
+    display: none;
+  }
+  ul.menuLinks,
+  ul.menuLinks.open {
+    display: flex;
+  }
+
+  .image-row {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .image-row img {
+    flex: 0 0 auto;
+    display: block;
+    height: 300px;
+    object-fit: cover; 
+    width: 100%;
+  }
+
+  .main-container {
+    width: 700px;
+  }
+
+  nav {
+    background-color: #faeb92;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 50px;
+  }
+
+  nav li {
+    list-style-type: none;
+    padding: 15px;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .welcome {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0px;
+    padding: 10px;
+    background-color: rgb(118, 114, 109);
+    color: white;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  .welcome picture {
+    flex: 1 1 250px; /* grow/shrink, base width 250px */
+    max-width: 500px;
+  }
+
+  .welcome picture img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .welcome .text-box {
+    flex: 1 1 250px;
+    max-width: 400px;
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    align-self: center;
+  }
+
+  .temple-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+}
+
+#location,
+#temple {
+    width: 700px;
+    max-width: 90%;
+    margin: 0;
+}
+
+  #temple img {
+    border-radius:10px;
+  }
+
+  #temple iframe {
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  .temple-appt a:link,
+  .temple-appt a:visited {
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    padding: 5px;
+    line-height: 50px;
+    display: inline-block;
+  }
+
+  .temple-container {
+    display: flex;
+    justify-content: center;
+  }
+}

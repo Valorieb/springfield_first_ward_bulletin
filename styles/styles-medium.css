@@ -1,0 +1,41 @@
+@media (min-width: 600px) and (max-width: 1023px){
+    .welcome {
+  padding: 20px;
+  background-color: rgb(118, 114, 109);
+  color: white;
+}
+.welcome img {
+  display:block;
+  margin: 0 auto;
+}
+.welcome p {
+    display:block;
+    margin: 0 auto;
+    width: 400px;
+    padding-bottom: 20px;
+}
+.hide-on-medium{
+    display:none;
+}
+
+
+
+    .image-row {
+        display: flex;
+        flex-direction: row;     /* horizontal */
+        justify-content: center; /* center all images */
+        align-items: flex-start;    /* all same height */
+        flex-wrap: nowrap;
+        /* gap: 20px;               spacing between images */
+    }
+
+    .image-row img {
+        width: auto;  /* let width scale */
+        height: 200px; /* force same height */
+        display:block; /* maintain aspect ratio nicely */
+        max-width: none;
+    }
+
+
+
+}
