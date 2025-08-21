@@ -65,7 +65,7 @@ nav a {
 
 nav a:hover {
   background-color: rgb(136, 136, 136);
-  border-color: rgb(233, 139, 17);
+  border-color: rgb(70, 255, 255);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
@@ -137,6 +137,12 @@ nav ul {
 .temple-container {
   display: block;
   margin: 0 auto;
+}
+
+.temple-apt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .temple-appt a:link,
